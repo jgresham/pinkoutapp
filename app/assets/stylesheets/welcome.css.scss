@@ -6,6 +6,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+$pink: #ea80b0;
+$font-stack: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 
 body,
 html {
@@ -20,20 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #ea80b0;
     text-transform: uppercase;
-    font-family: "Poiret One",sans-serif;
-    font-weight: 500;
-    font-size: 26px;
-    letter-spacing: 4px;
-}
-body {
-	letter-spacing: 2px;
-}
-.navbar {
-    font-color: #ea80b0;
 }
 
 .topnav {
@@ -50,7 +40,7 @@ body {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(ohio-stadium-night-filter3.jpg) no-repeat center center;
+    background: url(ohio-stadium-pink.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -58,6 +48,9 @@ body {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    h1 {
+      letter-spacing: 2px;
+    }
 }
 
 .intro-message > h1 {

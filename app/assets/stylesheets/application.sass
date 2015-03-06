@@ -1,0 +1,47 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ */
+
+/*
+ * Custom defaults
+ */
+$pink: #ea80b0
+$font-stack: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
+
+/*
+ * Bootstrap variables and mixin overrides
+ */
+$text-color: $pink
+$brand-primary: $pink
+$navbar-default-color: $pink
+$navbar-default-brand-color: $pink
+$navbar-default-link-color: $pink
+$navbar-default-link-hover-color: darken($pink, 10%)
+$font-family-sans-serif: $font-stack
+$headings-line-height: 1.1
+$headings-font-weight: 300
+$navbar-default-border: none
+$link-hover-decoration: none
+$navbar-default-bg: #ffffff
+
+@import "bootstrap-sprockets"
+@import "bootstrap"
+@import "welcome"
+
+// NavBar
+.navbar-brand
+  padding-top: 5px
+
+a
+  &:focus
+    border: white
+    outline: none
