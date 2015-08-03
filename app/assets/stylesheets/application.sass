@@ -15,7 +15,7 @@
  * Custom defaults
  */
 $pink: #ea80b0
-$font-stack: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
+$font-stack: "Gidole-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial,sans-serif
 
 /*
  * Bootstrap variables and mixin overrides
@@ -27,11 +27,11 @@ $navbar-default-brand-color: $pink
 $navbar-default-link-color: $pink
 $navbar-default-link-hover-color: darken($pink, 10%)
 $font-family-sans-serif: $font-stack
-$headings-line-height: 1.1
+//$headings-line-height: 1.1
 $headings-font-weight: 300
 $navbar-default-border: none
 $link-hover-decoration: none
-$navbar-default-bg: #ffffff
+$navbar-default-bg: rgba(255,255,255,0.96)
 
 @import "bootstrap-sprockets"
 @import "bootstrap"
@@ -45,3 +45,23 @@ a
   &:focus
     border: white
     outline: none
+
+.content-section-a
+  padding-bottom: 0
+
+#sec-a-text
+  margin-bottom: 50px
+#img_check
+  vertical-align: bottom
+
+.content-section-a .row
+  position: relative
+
+.col-bottom
+  position: absolute
+  bottom: 0
+  right: 0
+
+@media(max-width:767px)
+  .col-bottom
+    position: relative
