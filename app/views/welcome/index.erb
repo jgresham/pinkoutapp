@@ -47,7 +47,7 @@
       <div class="row">
           <div class="col-lg-5 col-sm-6" id="sec-a-text">
               <div class="clearfix"></div>
-              <h2 class="section-heading">Your support contributed to over $20,000 toward breast cancer research</h2>
+              <h2 class="section-heading">Your support helped contribute over $20,000 to breast cancer research</h2>
           </div>
           <div class="col-lg-5 col-lg-offset-2 col-sm-6 col-bottom">
               <%= image_tag "check.png", id: "img_check", class:"img-responsive", alt: "group" %>
@@ -61,20 +61,70 @@
 </div>
 <!-- /.content-section-a -->
 
+<div class="content-section-d">
+
+  <div class="container">
+      <div class="row info-row">
+        <div class="col-md-4 col">
+          <div id="" class="info-thumb thumbnail">
+          <%= image_tag "one-eight.png", id: "one-eight", class:"info-img img-responsive", alt: "group" %>
+          <div class="caption">
+            <h3>One in eight women will be diagnosed</h3>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4 col">
+          <div id="" class="info-thumb thumbnail">
+            <%= image_tag "blue-ribbon.png", id: "blue-ribbon", class:"info-img img-responsive", alt: "group" %>
+            <div class="caption">
+              <h3>Sp in men</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col">
+          <div class="info-thumb thumbnail">
+            <div id="two-svg" class="info-img">
+              <svg>
+                <text id="second" x="50%" y="60%">
+                  <tspan id="two">2</tspan>
+                  <tspan id="nd">nd</tspan>
+                </text>
+              </svg>
+            </div>
+            <div class="caption">
+              <h3>Second most diagnosed cancer in women</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <!-- /.container -->
+
+</div>
+
 <div class="content-section-b">
 
   <div class="container">
 
       <div class="row gallery-row">
-        <div id="pink-fans" class="col-lg-6 col-sm-6 col">
+        <div class="col-md-6 col">
+          <div id="pink-fans" class="gal-img"></div>
+          <%# image_tag "gallery/pink-fans.jpg", id: "pink-fans", class:"img-responsive", alt: "group" %>
         </div>
-        <div id= "cameron" class="col-lg-6 col-sm-6 col">
+        <div class="col-md-6 col">
+          <div id="cameron" class="gal-img"></div>
+          <%# image_tag "gallery/cameron.jpg", id: "cameron", class:"img-responsive", alt: "group" %>
         </div>
       </div>
       <div class="row gallery-row">
-        <div id="with-fan" class="col-lg-6 col-sm-6 col">
+        <div class="col-md-6 col">
+          <div id="with-fan" class="gal-img"></div>
+          <%# image_tag "gallery/with-fan.jpg", id: "with-fan", class:"img-responsive", alt: "group" %>
         </div>
-        <div id="block-o-ribbon" class="col-lg-6 col-sm-6 col">
+        <div class="col-md-6 col">
+          <div id="block-o-ribbon" class="gal-img"></div>
+          <%# image_tag "gallery/block-o-ribbon.jpg", id: "block-o-ribbon", class:"img-responsive", alt: "group" %>
         </div>
       </div>
 
@@ -84,19 +134,47 @@
 </div>
 <!-- /.content-section-b -->
 
-<div class="content-section-a">
+<div class="content-section-c">
 
   <div class="container">
-
       <div class="row">
           <div class="col-lg-5 col-sm-6">
+              <h3>Connect</h3>
               <hr class="section-heading-spacer">
               <div class="clearfix"></div>
-              <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-              <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+              <div id="connect-icons">
+                <%= inline_svg('icons/facebook.svg', class: "connect-icon")%>
+                <%= inline_svg('icons/twitter.svg', class: "connect-icon")%>
+                <%= inline_svg('icons/instagram.svg', class: "connect-icon")%>
+                <%= inline_svg('icons/mail.svg', class: "connect-icon")%>
+              </div>
+              <p id="mail-list-lead" class="lead">Get involved. Join the mailing list.</p>
+              <!-- Begin MailChimp Signup Form -->
+              <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+              <div id="mc_embed_signup">
+              <form action="//pinkoutosu.us10.list-manage.com/subscribe/post?u=209a5b69acf2f7bae348069bf&amp;id=8bd9843534" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+
+              <div class="mc-field-group">
+              	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+              	<div id="mce-responses" class="clear">
+              		<div class="response" id="mce-error-response" style="display:none"></div>
+              		<div class="response" id="mce-success-response" style="display:none"></div>
+              	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_209a5b69acf2f7bae348069bf_8bd9843534" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </div>
+              </form>
+              </div>
+              </script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+              <!--End mc_embed_signup-->
           </div>
           <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-              <img class="img-responsive" src="phones.png" alt="">
+              <h3>Sponser</h3>
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <p class="lead">We're interested in partners who want to make a positive impact in the breast cancer community.<br><br>Contact us at pinkoutatosu@gmail.com</p>
           </div>
       </div>
 

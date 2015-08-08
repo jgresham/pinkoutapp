@@ -38,3 +38,5 @@ gem 'puma'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'rename'
+
+gem 'inline_svg'
