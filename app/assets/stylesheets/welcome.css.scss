@@ -106,7 +106,11 @@ h6 {
     }
 
     .intro-message > h1 {
-        font-size: 3em;
+        font-size: 4em;
+    }
+
+    .intro-message > h3 {
+        font-size: 2em;
     }
 
     ul.intro-social-buttons > li {
@@ -206,4 +210,39 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+/*
+*  my css
+*/
+.content-section-a {
+  padding-top: 100px;
+}
+
+.gallery-row {
+  display: table;
+}
+
+.gallery-row .col {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+  height: 335px;
+  width: 50%;
+}
+
+#pink-fans {
+  background: image-url("gallery/pink-fans.jpg") no-repeat center center;
+}
+
+#cameron {
+  background: image-url("gallery/cameron.jpg") no-repeat top;
+}
+
+#with-fan {
+  background: image-url("gallery/with-fan.jpg") no-repeat center center;
+}
+
+#block-o-ribbon {
+  background: image-url("gallery/block-o-ribbon.jpg") no-repeat center center;
 }
