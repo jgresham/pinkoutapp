@@ -55,8 +55,8 @@ h6 {
 .header-background {
   background: image-url("stadium_pink_sunset.jpg") no-repeat center center;
   background-size: cover;
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   position: absolute;
   height: 100%;
   right: 0;
@@ -68,7 +68,7 @@ h6 {
   position: relative;
   margin: 0 auto;
   top:20%;
-  width: 70%;
+  width: 65%;
 }
 @media(max-width:475px) {
   .intro-header .container {
@@ -160,6 +160,7 @@ h6 {
 
 .content-section-d {
     padding: 50px 0;
+    padding-top: 75px;
     border-top: 1px solid #e7e7e7;
     background-color: #f8f8f8;
 }
@@ -284,19 +285,23 @@ p.copyright {
 }
 
 #pink-fans {
-  background: image-url("gallery/pink-fans.jpg") no-repeat center center;
+  background: image-url("gallery/pink-fans.jpg") no-repeat center top;
+  background-size: cover;
 }
 
 #cameron {
   background: image-url("gallery/cameron.jpg") no-repeat top;
+  background-size: cover;
 }
 
 #with-fan {
   background: image-url("gallery/with-fan.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 #block-o-ribbon {
   background: image-url("gallery/block-o-ribbon.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 #mc_embed_signup #mc-embedded-subscribe {
@@ -328,6 +333,9 @@ p.copyright {
   margin-bottom: 0;
 }
 
+.content-section-c hr {
+  margin-top: 0;
+}
 #connect-icons {
     margin-bottom: 20px;
 }
@@ -337,6 +345,8 @@ p.copyright {
   padding: 5px;
   border-radius: 5px;
   margin: 0 10px;
+  width: 45px;
+  height: 45px;
 }
 #connect-icons .connect-icon:hover {
   background: #ea80b0;
