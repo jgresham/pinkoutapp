@@ -165,10 +165,14 @@ h6 {
 
 .content-section-c {
   padding: 50px 0;
-  background: -webkit-linear-gradient(left top, #f1accb , #ea80b0); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #f1accb, #ea80b0); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #f1accb, #ea80b0); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #f1accb, #ea80b0);
+  background-color:#f1accb;
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#f1accb, endColorstr=#ee96be);
+  background-image:-moz-linear-gradient(left top, #f1accb 9%, #ee96be 32%,#ea80b0 63%,#ee96be 88%);
+  background-image:linear-gradient(left top, #f1accb 9%, #ee96be 32%,#ea80b0 63%,#ee96be 88%);
+  background-image:-webkit-linear-gradient(left top, #f1accb 9%, #ee96be 32%,#ea80b0 63%,#ee96be 88%);
+  background-image:-o-linear-gradient(left top, #f1accb 9%, #ee96be 32%,#ea80b0 63%,#ee96be 88%);
+  background-image:-ms-linear-gradient(left top, #f1accb 9%, #ee96be 32%,#ea80b0 63%,#ee96be 88%);
+  background-image:-webkit-gradient(linear, left top, right bottom, color-stop(9%,#f1accb), color-stop(32%,#ee96be),color-stop(63%,#ea80b0),color-stop(88%,#ee96be));
   color: #f8f8f8;
 }
 
