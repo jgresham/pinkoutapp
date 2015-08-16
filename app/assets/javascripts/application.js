@@ -15,3 +15,21 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+$.noConflict();
+jQuery( document ).ready(function( $ ) {
+  $(function() {
+    scrollToArea = function(button, area) {
+      $(button).click(function() {
+        var areaJq = $(area);
+        if(areaJq.length) {
+          $('html, body').animate({
+            scrollTop: areaJq.offset().top - 50
+          }, 1000);
+          return false;
+        }
+      });
+    };
+
+    scrollToArea('.contact_link', '#contact');
+  });
+});

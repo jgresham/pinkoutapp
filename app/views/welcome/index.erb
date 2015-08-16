@@ -47,7 +47,7 @@
       <div class="row">
           <div class="col-lg-5 col-sm-6" id="sec-a-text">
               <div class="clearfix"></div>
-              <h2 class="section-heading">Your support helped contribute over $20,000 to breast cancer research</h2>
+              <h2 class="section-heading">Your support helped donate over $20,000 to breast cancer research last year</h2>
           </div>
           <div class="col-lg-5 col-lg-offset-2 col-sm-6 col-bottom">
               <%= image_tag "check.png", id: "img_check", class:"img-responsive", alt: "group" %>
@@ -135,7 +135,7 @@
 
 </div>
 
-<div class="content-section-c">
+<div id="contact" class="content-section-c">
 
   <div class="container">
       <div class="row">
@@ -144,10 +144,18 @@
               <hr class="section-heading-spacer">
               <div class="clearfix"></div>
               <div id="connect-icons">
-                <%= inline_svg('icons/facebook.svg', class: "connect-icon")%>
-                <%= inline_svg('icons/twitter.svg', class: "connect-icon")%>
-                <%= inline_svg('icons/instagram.svg', class: "connect-icon")%>
-                <%= inline_svg('icons/mail.svg', class: "connect-icon")%>
+                <a href="https://www.facebook.com/PinkOutAtOhioState">
+                  <%= inline_svg('icons/facebook.svg', class: "connect-icon")%>
+                </a>
+                <a href="https://twitter.com/PinkOutOSU">
+                  <%= inline_svg('icons/twitter.svg', class: "connect-icon")%>
+                </a>
+                <a href="https://instagram.com/pinkoutosu/">
+                  <%= inline_svg('icons/instagram.svg', class: "connect-icon")%>
+                </a>
+                <a href="mailto:pinkoutatosu@gmail.com">
+                  <%= inline_svg('icons/mail.svg', class: "connect-icon")%>
+                </a>
               </div>
               <p id="mail-list-lead" class="lead">Get involved. Join the mailing list.</p>
               <!-- Begin MailChimp Signup Form -->
@@ -189,4 +197,4 @@
 <script src="js/jquery.js"></script>-->
 
 <!-- Bootstrap Core JavaScript -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
