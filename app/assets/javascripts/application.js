@@ -17,6 +17,12 @@
 //= require_tree .
 $.noConflict();
 jQuery( document ).ready(function( $ ) {
+  // Toggle nav when selection made
+  $('.nav a').on('click', function(){
+    $(".navbar-toggle").click();
+  });
+
+  // Scroll to area on button/link click
   $(function() {
     scrollToArea = function(button, area) {
       $(button).click(function() {
@@ -30,6 +36,6 @@ jQuery( document ).ready(function( $ ) {
       });
     };
 
-    scrollToArea('.contact_link', '#contact');
+    //scrollToArea('.contact_link', '#contact');
   });
 });
