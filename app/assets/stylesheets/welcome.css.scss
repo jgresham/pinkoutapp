@@ -381,6 +381,8 @@ p.copyright {
   margin: 30px 0;
   list-style: none;
   display: table;
+  border-spacing: 25px 0;
+  border-collapse: separate;
 }
 .leader .lead {
   font-weight: bold;
@@ -391,10 +393,11 @@ p.copyright {
 }
 .leader-img {
   font-size: 40px;
-  margin-right: 30px;
   width: 70px;
   height: 70px;
-  vertical-align: top;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
 }
 .leader-details {
   display: table-cell;
