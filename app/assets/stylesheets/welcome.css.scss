@@ -154,7 +154,11 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
-    padding-top: 100px;
+}
+
+.content-section-a.content-check {
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 
 .content-section-b {
@@ -407,4 +411,79 @@ p.copyright {
 .navbar-default .topnav .navbar-toggle {
   border: 0;
   background: none;
+}
+
+#stadium {
+  width: 200px;
+  height: 200px;
+  fill: $pink;
+  display: block;
+  margin: 0 auto;
+}
+.stadium-container {
+  background: rgb(248, 248, 248);
+}
+
+#donate-button {
+  background: transparent;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  height: 32px;
+  text-align: center;
+  margin: 0 5px 10px 0;
+  padding: 0 22px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px;
+  user-select: none;
+}
+
+#donate-button:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.card-container {
+
+}
+
+.card {
+  box-shadow:0 2px 5px #aaa;
+  background:white;
+  margin:0 1rem 1rem;
+  border-radius:3px;
+  user-select:none;
+  animation:fly-in-from-left .5s 1s ease both;
+  transform-origin:top left;
+}
+
+.card-padded {
+    padding:1.5rem;
+}
+
+@keyframes fly-in-from-left {
+  from {
+    transform:translateY(5rem) rotate(15deg);
+    opacity:0;
+  }
+}
+
+.event-options {
+  padding-top: 1rem;
+  text-align: center;
+  display: table;
+}
+
+.event-options .event-option {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.event-options .event-option:not(:last-child) {
+  border-right: 1px solid;
+}
+
+#img-2013game {
+  width: 100%;
 }
