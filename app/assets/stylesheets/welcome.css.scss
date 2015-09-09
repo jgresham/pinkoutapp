@@ -450,7 +450,7 @@ p.copyright {
 .card {
   box-shadow:0 2px 5px #aaa;
   background:white;
-  margin:0 1rem 1rem;
+  margin:0 1rem 2rem;
   border-radius:3px;
   user-select:none;
   animation:fly-in-from-left .5s 1s ease both;
@@ -458,7 +458,11 @@ p.copyright {
 }
 
 .card-padded {
-    padding:1.5rem;
+  padding: 1.5rem;
+}
+.card-padded h1,
+.card-padded h2 {
+  margin-top: 0;
 }
 
 @keyframes fly-in-from-left {
@@ -486,4 +490,13 @@ p.copyright {
 
 #img-2013game {
   width: 100%;
+}
+
+/* events */
+.events-content {
+  padding-top: 85px;
+}
+
+.events-section-header {
+  margin: 0 1rem 2rem;
 }
