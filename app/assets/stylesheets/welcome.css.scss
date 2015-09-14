@@ -448,12 +448,13 @@ p.copyright {
 }
 
 .card {
+  display: block;
   box-shadow:0 2px 5px #aaa;
   background:white;
   margin:0 1rem 2rem;
   border-radius:3px;
   user-select:none;
-  animation:fly-in-from-left .5s 1s ease both;
+  animation: fly-in-from-left .5s 1s ease both;
   transform-origin:top left;
 }
 
@@ -467,7 +468,7 @@ p.copyright {
 
 @keyframes fly-in-from-left {
   from {
-    transform:translateY(5rem) rotate(15deg);
+    transform:translateY(2rem) rotate(10deg);
     opacity:0;
   }
 }
@@ -500,4 +501,13 @@ p.copyright {
 
 .events-section-header {
   margin: 0 1rem 2rem;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.fadein {
+  animation: fadein 2s;
 }
