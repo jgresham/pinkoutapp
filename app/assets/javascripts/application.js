@@ -19,7 +19,10 @@ $.noConflict();
 jQuery( document ).ready(function( $ ) {
   // Toggle nav when selection made
   $('.nav a').on('click', function(){
-    $(".navbar-toggle").click();
+    var stuff = $(".navbar-toggle");
+    if(!stuff.hasClass("collapsed")) {
+      $(".navbar-toggle")[0].click();
+    }
   });
 
   // Scroll to area on button/link click

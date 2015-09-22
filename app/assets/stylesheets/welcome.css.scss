@@ -503,11 +503,17 @@ p.copyright {
   margin: 0 1rem 2rem;
 }
 
+
+.fadein {
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-.fadein {
-  animation: fadein 2s;
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
